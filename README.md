@@ -270,29 +270,3 @@ labforge/
   overwriting the original votes
 
 ---
-
-## Deliberate choices
-
-**Error bars are always labelled in the figure.** SEM bars are the shortest and
-the most popular, and they mean something different from SD.
-
-**Kaplan-Meier y axes start at zero** by default, because truncating them
-exaggerates separation.
-
-**Predictive values carry a prevalence caveat**, because they are properties of
-a test in a population, not properties of a test.
-
-**Observed power is available but discouraged**, with the reason attached: it
-is a deterministic function of the p value and adds nothing.
-
-**Table 1 offers standardised mean differences**, because baseline p values in
-a randomised trial test a hypothesis you already know is true.
-
-**Every run is logged, including blocked ones.** You cannot quietly try eight
-tests and report the ninth.
-
-**Deleting is easy and never silent.** Rows, filtered subsets and whole
-categories can all be cleared, but each says what it will remove and what will
-survive first. Removing a dataset asks whether the analyses go with it and
-defaults to keeping them, because the data going away should not erase the
-record that the work happened.
